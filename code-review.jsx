@@ -1,16 +1,19 @@
+import React from 'react'
 import ReactDOM from 'react-dom';
 
 const LoginBox = () => {
-    return <span className = 'login'>Login Box</span>
+    return <span className = 'login'>Login Box</span>;
 };
 
 
 const App = () => {
     return (
+        <div>
         <div>Header</div>
-        <LoginBox/>
+        <LoginBox />
+        </div>
     );
 }
 
 
-ReactDOM.render(<App/>)
+ReactDOM.render(<App />, document.getElementById)
