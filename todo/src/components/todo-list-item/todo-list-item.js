@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './todo-list-item.css';
+import './todo-list-item';
 
 const TodoListItem = ({ label, important = false }) => {
 
@@ -19,12 +19,12 @@ const TodoListItem = ({ label, important = false }) => {
 
       <button type="button"
               className="btn btn-outline-success btn-sm float-right">
-        <i className="fa fa-exclamation" />
+        <i className="fa-solid fa-triangle-exclamation"></i>
       </button>
 
       <button type="button"
               className="btn btn-outline-danger btn-sm float-right">
-        <i className="fa fa-times" />
+        <i className="fa-solid fa-trash-can"/>
       </button>
     </span>
   );
